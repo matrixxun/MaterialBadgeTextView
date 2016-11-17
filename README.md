@@ -7,6 +7,7 @@ As the name describes, this is an Android library that you can use to show new m
 
 
 If you use mac X, you must have seen this new message badge view:
+<img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/qq_pic.png" width="400">
 
 ## Screen Capture
 <img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png" width="400">
