@@ -28,7 +28,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         app:mbtv_backgroundColor="#EF4738"
+        android:textSize="12sp"
         android:text="0" />
+
+
+    <com.matrixxun.starry.badgetextview.MaterialBadgeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:mbtv_backgroundColor="#EF4738"
+        android:textSize="50sp"
+        android:text="3" />
 
     <com.matrixxun.starry.badgetextview.MaterialBadgeTextView
         android:layout_width="wrap_content"

@@ -100,8 +100,6 @@ public class MaterialBadgeTextView extends TextView {
             setLayoutParams(lp);
             isHighLightMode = false;
         }
-        //这行代码有争议, 那就先注掉.
-        //requestLayout();
     }
 
     @Override
