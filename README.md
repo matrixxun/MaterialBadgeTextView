@@ -8,7 +8,7 @@ As the name describes, this is an Android library that you can use to show new m
 API level 9+ supported
 
 ## Example
-See example code here on Github. You can also see it live downloading [this apk](https://github.com/matrixxun/ProductTour/raw/master/app/app-debug.apk)
+See example code here on Github. You can also see it live downloading [this apk](https://raw.githubusercontent.com/matrixxun/MaterialBadgeTextView/master/MaterialBadgeTextView/apk/app-debug.apk)
 
 License
 --------
