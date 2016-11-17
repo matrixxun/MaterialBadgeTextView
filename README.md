@@ -1,5 +1,12 @@
 # MaterialBadgeTextView
-As the name describes, this is an Android library that you can use to show new messages and new features.
+As the name describes, this is an Android library that you can use to show new messages badge and new features badge.
+
+## Why you need this library
+1. You know, the Shadow&Elevation is Material Design core element. So...
+2. Like TextView, you didn't need to care about background shadow, width, height, the limit of numbers. Just set textColor and TextSize.
+If you use mac X, you must have seen this new message badge view:
+
+<img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png"
 
 ## Screen Capture
 <img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png" width="400">
