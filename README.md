@@ -1,12 +1,14 @@
 # MaterialBadgeTextView
 As the name describes, this is an Android library that you can use to show new messages badge and new features badge.
 
+More importantly, it has a default shadow like FAB(Floating Action Button) and more simple to use just like ordinary TextView.
+
 ## Why you need this library
-1. You know, the Shadow&Elevation is Material Design core element. So...
-2. Like TextView, you didn't need to care about background shadow, width, height, the limit of numbers. Just set textColor and TextSize.
+1. You know, the **Shadow** & **Elevation** is Material Design core element. So...
+2. Like TextView, you didn't need to care about **background shadow, width, height, and the limit of numbers**. Just set text, textColor and TextSize in layout xml, or call setBadgeCount(), setHighLightMode() method in source code...
 
 
-If you use mac X, you must have seen this new message badge view:
+If you use mac OS X, you must have seen this image:
   
 <img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/qq_pic.png" width="668">
 
