@@ -2,7 +2,7 @@
 As the name describes, this is an Android library that you can use to show new messages and new features.
 
 ## Screen Capture
-<img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png" width="300">
+<img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png" width="400">
 
 ## Compat
 API level 9+ supported
