@@ -4,6 +4,8 @@ As the name describes, this is an Android library that you can use to show new m
 ## Why you need this library
 1. You know, the Shadow&Elevation is Material Design core element. So...
 2. Like TextView, you didn't need to care about background shadow, width, height, the limit of numbers. Just set textColor and TextSize.
+
+
 If you use mac X, you must have seen this new message badge view:
 
 ## Screen Capture
