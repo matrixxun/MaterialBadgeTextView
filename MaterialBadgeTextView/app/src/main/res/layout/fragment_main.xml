@@ -29,6 +29,7 @@
         android:layout_marginTop="16dp"
         app:mbtv_backgroundColor="#EF4738"
         android:textSize="12sp"
+        android:textColor="@android:color/white"
         android:text="0" />
 
 
@@ -37,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         app:mbtv_backgroundColor="#EF4738"
+        android:textColor="#1BD830"
         android:textSize="50sp"
         android:text="3" />
 
