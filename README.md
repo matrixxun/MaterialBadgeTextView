@@ -2,7 +2,7 @@
 
 # MaterialBadgeTextView
 As the name describes, this is an Android library that you can use to show new messages badge and new features badge, for example in some IM App such as **WhatsApp, Facebook Messenger, Weichat**.  
-More importantly, it has a default shadow like FAB(Floating Action Button) and it's more simple to use just like ordinary TextView. Just one Class java and no png or xml drawable resource file.
+More importantly, it has a default shadow like FAB(Floating Action Button) and it's more simple to use just like ordinary TextView. Only one java Class and no png or xml drawable resource file.
 
 ## Why you need this library
 1. You know, the **Shadow** & **Elevation** is Material Design core element. So...
