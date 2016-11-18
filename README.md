@@ -1,7 +1,7 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialBadgeTextView-brightgreen.svg?style=flat)]()
 
 # MaterialBadgeTextView
-As the name describes, this is an Android library that you can use to show new messages badge and new features badge, for example in some IM App such as **WhatsApp, Facebook Messenger, Weichat**.  
+As the name describes, this is an Android library that you can use to show new messages badge and new features badge, for example in some IM App such as **WhatsApp, Facebook Messenger, WeicChat**.  
 More importantly, it has a default shadow like FAB(Floating Action Button) and it's more simple to use just like ordinary TextView. Only one java Class and no png or xml drawable resource file.
 
 ## Why you need this library
