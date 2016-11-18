@@ -1,3 +1,5 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialBadgeTextView-brightgreen.svg?style=flat)]()
+
 # MaterialBadgeTextView
 As the name describes, this is an Android library that you can use to show new messages badge and new features badge.  
 More importantly, it has a default shadow like FAB(Floating Action Button) and more simple to use just like ordinary TextView.
