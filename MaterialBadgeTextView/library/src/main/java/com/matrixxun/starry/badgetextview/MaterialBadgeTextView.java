@@ -53,13 +53,11 @@ public class MaterialBadgeTextView extends TextView {
     private boolean isHighLightMode;
 
     public MaterialBadgeTextView(final Context context) {
-        super(context);
-        init(context, null);
+        this(context, null);
     }
 
     public MaterialBadgeTextView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        init(context, attrs);
+        this(context, attrs, 0);
     }
 
     public MaterialBadgeTextView(Context context, AttributeSet attrs, int defStyleAttr) {
