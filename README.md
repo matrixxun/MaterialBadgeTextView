@@ -16,6 +16,15 @@ If you use mac OS X, you must have seen this image:
 ## Demo Screen Capture
 <img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png" width="400">
 
+## Type
+| Code | Badge |
+| :----- | :------ | 
+| **`setBadgeCount(3)`** | ![number](art/number.png) |
+| **`setBadgeCount(68)`** | ![two](art/two_text.png) |
+| **`setBadgeCount(101)`** | ![two](art/two_text.png) |
+| **`setHighLightMode()`** | ![two](art/two_text.png) |
+
+
 ## Compat
 API level 9+ supported
 
