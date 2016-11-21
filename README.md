@@ -19,6 +19,7 @@ If you use mac OS X, you must have seen this image:
 ## Type
 | Code | Badge |
 | :----- | :------ | 
+| **`setBadgeCount(0,false)`** | ![number](art/number.png) |
 | **`setBadgeCount(3)`** | ![number](art/number.png) |
 | **`setBadgeCount(68)`** | ![two](art/two_text.png) |
 | **`setBadgeCount(101)`** | ![two](art/two_text.png) |
