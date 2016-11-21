@@ -146,6 +146,9 @@ public class MaterialBadgeTextView extends TextView {
 
     }
 
+    public void setBadgeCount(String count){
+        setBadgeCount(count, false);
+    }
     public void setBadgeCount(String count, boolean goneWhenZero) {
         int temp = -1;
         try {
@@ -158,6 +161,9 @@ public class MaterialBadgeTextView extends TextView {
         }
     }
 
+    public void setBadgeCount(int count){
+        setBadgeCount(count, true);
+    }
     public void setBadgeCount(int count, boolean goneWhenZero){
         if(count >0 && count <= 99){
             setText(String.valueOf(count));
