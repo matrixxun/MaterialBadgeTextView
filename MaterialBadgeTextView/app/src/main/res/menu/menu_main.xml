@@ -3,6 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="sample.badgeview.starry.matrixxun.com.materialbadgetextview.MainActivity">
     <item
+        android:id="@+id/menu_message"
+        android:title="@string/action_message"
+        app:actionLayout="@layout/menu_action_item_badge"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_shopcart"
+        android:title="@string/action_shop_cart"
+        app:actionLayout="@layout/menu_action_item_badge"
+        app:showAsAction="always"/>
+    <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"

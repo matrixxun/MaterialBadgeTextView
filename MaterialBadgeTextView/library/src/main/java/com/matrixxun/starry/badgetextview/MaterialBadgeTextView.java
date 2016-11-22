@@ -204,6 +204,11 @@ public class MaterialBadgeTextView extends TextView {
         setVisibility(View.VISIBLE);
     }
 
+    public void setBackgroundColor(int color){
+        backgroundColor = color;
+        refreshBackgroundDrawable(getWidth(), getHeight());
+    }
+
     private class OvalShadow extends OvalShape {
         private RadialGradient mRadialGradient;
         private Paint mShadowPaint;
