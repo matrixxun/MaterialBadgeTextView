@@ -14,7 +14,7 @@ If you use mac OS X, you must have seen this image:
 <img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/qq_pic.png" width="600">
 
 ## Demo Screen Capture
-<img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png" width="400">
+<img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/screen_cap.png" width="400">
 
 ## Usage
 | Code | Badge |
