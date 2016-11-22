@@ -1,16 +1,13 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialBadgeTextView-brightgreen.svg?style=flat)]()
 
 # MaterialBadgeTextView
-**`update info:`**    
-1. *11/22/2016: Support MenuAction in Toolbar;*     
-
-
 As the name describes, this is an Android library that you can use to show new messages badge and new features badge, for example in some IM App such as **WhatsApp, Facebook Messenger, WeicChat**.  
 More importantly, it has a default shadow like FAB(Floating Action Button) and it's more simple to use just like ordinary TextView. Only one java Class and no png or xml drawable resource file.
 
 ## Why you need this library
 1. You know, the **Shadow** & **Elevation** is Material Design core element. So...
 2. Like TextView, you didn't need to care about **background shadow, width, height, visible, gone and the limit of numbers**. Just set text, textColor and TextSize in layout xml, or call setBadgeCount(), setHighLightMode() method in source code...   
+3. Support MenuAction in Toolbar
 
 
 If you use mac OS X, you must have seen this image:
