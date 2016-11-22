@@ -2,7 +2,7 @@
 
 # MaterialBadgeTextView
 **`update info:`**    
-1. *11/22/2016:Support MenuAction in Toolbar;*     
+1. *11/22/2016: Support MenuAction in Toolbar;*     
 
 
 As the name describes, this is an Android library that you can use to show new messages badge and new features badge, for example in some IM App such as **WhatsApp, Facebook Messenger, WeicChat**.  
