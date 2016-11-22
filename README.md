@@ -2,7 +2,9 @@
 
 # MaterialBadgeTextView
 **`update info:`**    
-1. 11/22/2016:Support MenuAction in Toolbar;    
+1. 11/22/2016:Support MenuAction in Toolbar;  
+
+
 As the name describes, this is an Android library that you can use to show new messages badge and new features badge, for example in some IM App such as **WhatsApp, Facebook Messenger, WeicChat**.  
 More importantly, it has a default shadow like FAB(Floating Action Button) and it's more simple to use just like ordinary TextView. Only one java Class and no png or xml drawable resource file.
 
