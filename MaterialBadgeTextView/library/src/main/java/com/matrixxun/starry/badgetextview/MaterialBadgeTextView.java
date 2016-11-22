@@ -199,6 +199,7 @@ public class MaterialBadgeTextView extends TextView {
         ViewGroup.LayoutParams params = getLayoutParams();
         params.width = dp2px(getContext(), 8);
         params.height = params.width;
+        if(isDisplayInToolbarMenu && params instanceof FrameLayout.LayoutParams){
             ((FrameLayout.LayoutParams)params).topMargin=dp2px(getContext(), 8);
             ((FrameLayout.LayoutParams)params).rightMargin=dp2px(getContext(), 8);
         }
