@@ -1,7 +1,7 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialBadgeTextView-brightgreen.svg?style=flat)]()
 
 # MaterialBadgeTextView
-**`update info 
+**`update info   
 11/22/2016: Support MenuAction in Toolbar;
 `**
 
