@@ -16,7 +16,7 @@ If you use mac OS X, you must have seen this image:
 ## Demo Screen Capture
 <img src="https://github.com/matrixxun/MaterialBadgeTextView/blob/master/MaterialBadgeTextView/art/device-2016-11-17-171018.png" width="400">
 
-## Type
+## Usage
 | Code | Badge |
 | :----- | :------ | 
 | **`setBadgeCount(0,true)`** | the TextView is blank |
