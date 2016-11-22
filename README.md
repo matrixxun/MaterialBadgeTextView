@@ -8,7 +8,7 @@ More importantly, it has a default shadow like FAB(Floating Action Button) and i
 1. You know, the **Shadow** & **Elevation** is Material Design core element. So...
 2. Like TextView, you didn't need to care about **background shadow, width, height, visible, gone and the limit of numbers**. Just set text, textColor and TextSize in layout xml, or call setBadgeCount(), setHighLightMode() method in source code...
 3. **`update info:`**    
-  * **`11/22/2016:`**  Support MenuAction in Toolbar;
+   **`11/22/2016:`**  Support MenuAction in Toolbar;
 
 
 If you use mac OS X, you must have seen this image:
