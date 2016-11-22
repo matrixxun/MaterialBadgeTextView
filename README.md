@@ -19,12 +19,14 @@ If you use mac OS X, you must have seen this image:
 ## Type
 | Code | Badge |
 | :----- | :------ | 
+| **`setBadgeCount(0,true)`** | textview is blank |
 | **`setBadgeCount(0,false)`** | ![badge_0](MaterialBadgeTextView/art/badge_0.png) |
 | **`setBadgeCount(3)`** | ![number](MaterialBadgeTextView/art/badge_3.png) |
 | **`setBadgeCount(68)`** | ![two](MaterialBadgeTextView/art/badge_68.png) |
 | **`setBadgeCount(101)`** | ![two](MaterialBadgeTextView/art/badge_99.png) |
 | **`setBadgeCount(99999)`** | ![two](MaterialBadgeTextView/art/badge_99.png) |
 | **`setHighLightMode()`** | ![two](MaterialBadgeTextView/art/badge_red.png) |
+| **`setText("")`** | textview is blank |
 | **`setText("Hello World!")`** | ![two](MaterialBadgeTextView/art/badge_hello.png) |
 | **`setText("10999999976")`** | ![two](MaterialBadgeTextView/art/badge_long.png) |
 
