@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">MaterialBadgeTextView</string>
     <string name="action_settings">Settings</string>
+    <string name="action_new_feature">New Feature</string>
+    <string name="action_notification">Notification</string>
     <string name="action_message">Message</string>
     <string name="action_shop_cart">Shop Cart</string>
 </resources>

@@ -36,6 +36,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        MenuItem menuItemNewFeature = menu.findItem(R.id.menu_new_feature);
+        MenuItemBadge.update(this, menuItemNewFeature, new MenuItemBadge.Builder()
+                .iconDrawable(ContextCompat.getDrawable(this, R.drawable.ic_account_my_order_md))
+                .iconTintColor(Color.WHITE)
+                .textBackgroundColor(Color.parseColor("#EF4738"))
+                .textColor(Color.WHITE));
+        MenuItemBadge.getBadgeTextView(menuItemNewFeature).setHighLightMode(true);
+
+        MenuItem menuItemNotification = menu.findItem(R.id.menu_notification);
+        MenuItemBadge.update(this, menuItemNotification,new MenuItemBadge.Builder()
+                .iconDrawable(ContextCompat.getDrawable(this, R.drawable.ic_notification_md))
+                .iconTintColor(Color.WHITE)
+                .textBackgroundColor(Color.parseColor("#36B100"))
+                .textColor(Color.WHITE));
+        MenuItemBadge.getBadgeTextView(menuItemNotification).setBadgeCount("5");
+
 
         MenuItem menuItemMessage = menu.findItem(R.id.menu_message);
         MenuItemBadge.update(this, menuItemMessage,new MenuItemBadge.Builder()
@@ -52,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 .iconTintColor(Color.WHITE)
                 .textBackgroundColor(Color.parseColor("#FB8C00"))
                 .textColor(Color.WHITE));
-        MenuItemBadge.getBadgeTextView(menuItemShopCart).setBadgeCount(9);
+        MenuItemBadge.getBadgeTextView(menuItemShopCart).setText("New");
         return true;
     }
 

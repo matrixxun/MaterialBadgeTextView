@@ -31,7 +31,6 @@
         android:textColor="@android:color/white"
         android:maxLines="1"
         android:ellipsize="none"
-        android:textAllCaps="true"
         android:textSize="10sp"
         app:mbtv_backgroundColor="#EF4738"/>
 </FrameLayout>

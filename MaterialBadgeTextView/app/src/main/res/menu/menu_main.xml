@@ -3,6 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="sample.badgeview.starry.matrixxun.com.materialbadgetextview.MainActivity">
     <item
+        android:id="@+id/menu_new_feature"
+        android:title="@string/action_new_feature"
+        app:actionLayout="@layout/menu_action_item_badge"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_notification"
+        android:title="@string/action_notification"
+        app:actionLayout="@layout/menu_action_item_badge"
+        app:showAsAction="always"/>
+
+    <item
         android:id="@+id/menu_message"
         android:title="@string/action_message"
         app:actionLayout="@layout/menu_action_item_badge"

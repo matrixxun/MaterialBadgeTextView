@@ -19,6 +19,7 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 
 /**
@@ -186,10 +187,21 @@ public class MaterialBadgeTextView extends TextView {
      * 主要是通过设置文本setText("")触发onTextChanged(), 再连锁触发onSizeChanged()最后更新了背景.
      */
     public void setHighLightMode(){
+        setHighLightMode(false);
+    }
+
+    /**
+     *
+     * @param isDisplayInToolbarMenu
+     */
+    public void setHighLightMode(boolean isDisplayInToolbarMenu){
         isHighLightMode = true;
         ViewGroup.LayoutParams params = getLayoutParams();
         params.width = dp2px(getContext(), 8);
         params.height = params.width;
+            ((FrameLayout.LayoutParams)params).topMargin=dp2px(getContext(), 8);
+            ((FrameLayout.LayoutParams)params).rightMargin=dp2px(getContext(), 8);
+        }
         setLayoutParams(params);
         ShapeDrawable drawable = new ShapeDrawable(new OvalShape());
         ViewCompat.setLayerType(this, ViewCompat.LAYER_TYPE_SOFTWARE, drawable.getPaint());
