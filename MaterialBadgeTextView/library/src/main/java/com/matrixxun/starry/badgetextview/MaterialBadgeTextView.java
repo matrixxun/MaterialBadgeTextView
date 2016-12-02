@@ -190,6 +190,11 @@ public class MaterialBadgeTextView extends TextView {
         setHighLightMode(false);
     }
 
+    public void clearHighLightMode(){
+        isHighLightMode = false;
+        setBadgeCount(0);
+    }
+
     /**
      *
      * @param isDisplayInToolbarMenu
