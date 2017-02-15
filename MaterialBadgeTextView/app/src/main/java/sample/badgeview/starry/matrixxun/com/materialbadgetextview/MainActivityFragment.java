@@ -1,11 +1,13 @@
 package sample.badgeview.starry.matrixxun.com.materialbadgetextview;
 
+import android.graphics.Color;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.matrixxun.starry.badgetextview.MaterialBadgeTextView;
 
@@ -25,6 +27,9 @@ public class MainActivityFragment extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_main, container, false);
         just_new_feature = (MaterialBadgeTextView)view.findViewById(R.id.just_new_feature);
         just_new_feature.setHighLightMode();
+
+        TextView test_text = (MaterialBadgeTextView)view.findViewById(R.id.test_text);
+        test_text.setBackgroundColor(Color.parseColor("#987aef"));
         return view;
     }
 

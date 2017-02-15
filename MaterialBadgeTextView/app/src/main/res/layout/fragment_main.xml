@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        app:mbtv_backgroundColor="#EF4738"
+        android:background="#EF4738"
         android:textSize="12sp"
         android:textColor="@android:color/white"
         android:text="0" />
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        app:mbtv_backgroundColor="#EF4738"
+        android:background="#EF4738"
         android:textColor="@android:color/black"
         android:textSize="50sp"
         android:text="3" />
@@ -46,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        app:mbtv_backgroundColor="#427fed"
+        android:background="#427fed"
         android:textColor="@android:color/white"
         android:text="9"
         android:textSize="12sp"/>
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        app:mbtv_backgroundColor="#36b100"
+        android:background="#36b100"
         android:textColor="@android:color/white"
         android:text="6123456789012"
         android:textSize="25sp"/>
@@ -65,16 +65,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="57"
-        app:mbtv_backgroundColor="#FB8C00"
+        android:background="#FB8C00"
         android:textSize="14sp"/>
 
     <com.matrixxun.starry.badgetextview.MaterialBadgeTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/test_text"
         android:layout_marginTop="16dp"
         android:text="99+"
         android:textColor="@android:color/white"
-        app:mbtv_backgroundColor="#EF4738"
+        android:background="#EF4738"
         android:textSize="16sp"/>
 
     <com.matrixxun.starry.badgetextview.MaterialBadgeTextView
@@ -82,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="MaterialBadgeTextView"
-        app:mbtv_backgroundColor="#FB8C00"
+        android:background="#FB8C00"
         android:textSize="16sp"/>
 
     <com.matrixxun.starry.badgetextview.MaterialBadgeTextView
@@ -90,7 +91,7 @@
         android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:mbtv_backgroundColor="#EF4738"/>
+        android:background="#EF4738"/>
 
 </LinearLayout>
 </ScrollView>

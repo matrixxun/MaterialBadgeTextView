@@ -79,7 +79,7 @@ public class MaterialBadgeTextView extends TextView {
         int horizontalPadding = basePadding + diffWH;
         setPadding(horizontalPadding, basePadding, horizontalPadding, basePadding);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MaterialBadgeTextView);
-        backgroundColor = typedArray.getColor(R.styleable.MaterialBadgeTextView_mbtv_backgroundColor, Color.WHITE);
+        backgroundColor = typedArray.getColor(R.styleable.MaterialBadgeTextView_android_background, Color.WHITE);
         borderColor = typedArray.getColor(R.styleable.MaterialBadgeTextView_mbtv_border_color, Color.TRANSPARENT);
         borderWidth = typedArray.getDimension(R.styleable.MaterialBadgeTextView_mbtv_border_width, 0);
         borderAlpha = typedArray.getFloat(R.styleable.MaterialBadgeTextView_mbtv_border_alpha, 1);
